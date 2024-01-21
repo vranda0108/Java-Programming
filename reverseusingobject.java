@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class reverse1
+class reverseusingobject
 {
     int n;
     void getdata(int i)
@@ -19,7 +19,7 @@ class reverse1
     public static void main(String args[])
     {
         int m;
-        reverse1 r=new reverse1();
+        reverseusingobject r=new reverseusingobject();
         Scanner sc=new Scanner(System.in);
         System.out.println("enter a num=");
         m=sc.nextInt();
